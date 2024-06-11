@@ -386,7 +386,7 @@
     color: var(--white);
     text-align: center;
     padding: 30px;
-    margin-bottom: -3vh;
+    margin-bottom: 3vh;
   }
   .hero-title{
     display: flex;
@@ -898,6 +898,9 @@
     }
     .hero-text {
       margin-block: 20px 15px;
+  }
+  .hero-content{
+    margin-bottom: 3vh;
   }
   }
   @media (min-width: 540px) {
