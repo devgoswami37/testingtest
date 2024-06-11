@@ -386,6 +386,7 @@
     color: var(--white);
     text-align: center;
     padding: 30px;
+    margin-bottom: -3vh;
   }
   .hero-title{
     display: flex;
@@ -876,12 +877,29 @@
     visibility: visible;
     transform: translateY(-10px);
   }
+  #subhead2{
+    display: none;
+  }
+  #subhead1{
+    display: block;
+    text-align: center;
+  }
  
   
   /*-----------------------------------*\
     #MEDIA QUERISE
   \*-----------------------------------*/
-  
+  @media (max-width: 440px){
+    #subhead1{
+      display: none;
+    }
+    #subhead2{
+      display: block;
+    }
+    .hero-text {
+      margin-block: 20px 15px;
+  }
+  }
   @media (min-width: 540px) {
 
     .btn {
