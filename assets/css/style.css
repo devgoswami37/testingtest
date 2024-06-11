@@ -423,6 +423,7 @@
   }
   
   .hero-shape {
+    display: none;
     position: absolute;
     z-index: -1;
     animation: move 2s ease-in-out infinite alternate;
@@ -900,7 +901,7 @@
       margin-block: 20px 15px;
   }
   .hero-content{
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
   }
   }
   @media (min-width: 540px) {
