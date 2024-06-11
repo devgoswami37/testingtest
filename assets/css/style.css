@@ -802,8 +802,11 @@
   .footer-list-title {
     font-size: var(--fs-6);
     max-width: max-content;
-    padding-block-end: 10px;
+    font-weight: 900;
+    font-family: var(--ff-oswald);
+    padding-block-end: 5px;
     border-block-end: 3px solid var(--dark-orange);
+    border-block-end: 2px solid var(--prussian-blue);
     margin-block-end: 20px;
   }
   
